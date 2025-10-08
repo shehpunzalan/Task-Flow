@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TaskListView = () => {
+const TaskListView = ({ tasksToView, deleteTask }) => {
     return(
         <h2 className="text-center mt-5">Home Page</h2>
     ) 
